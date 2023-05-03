@@ -1,0 +1,253 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+body {
+  font-family: 'Inter'; }
+
+.top-container {
+  background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+  padding-left: 0px;
+  position: absolute;
+  width: 100%;
+  height: 846px;
+  left: 0px;
+  top: 0px; }
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px; }
+
+.logo {
+  height: 34px;
+  width: 143px;
+  left: 135px;
+  top: 30px; }
+
+#myNavbar {
+  padding-top: 8px; }
+
+#search {
+  width: 100px; }
+
+#login {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  left: 1182px;
+  top: 22px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(58, 133, 191, 0.75);
+  border-radius: 14px;
+  background: #217BF4;
+  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+  transition: all 0.3s ease 0s; }
+
+#network-btn {
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  left: 135px;
+  top: 215px;
+  width: 177px;
+  height: 36px;
+  color: #217bf4;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border-radius: 8px;
+  background: #c1d7f4;
+  box-shadow: 0px 7px 22px -6px rgba(78, 143, 228, 0.34);
+  transition: all 0.3s ease 0s; }
+
+.title {
+  position: absolute;
+  width: 515px;
+  height: 132px;
+  left: 135px;
+  top: 271px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px; }
+
+.p1 {
+  position: absolute;
+  width: 491px;
+  height: 56px;
+  left: 135px;
+  top: 421px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px; }
+
+#about {
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  left: 135px;
+  top: 519px;
+  width: 162px;
+  height: 62px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border-radius: 14px;
+  background: #217BF4;
+  box-shadow: 0px 10px 22px -6px rgba(33, 123, 244, 0.26);
+  transition: all 0.3s ease 0s; }
+
+#invite {
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  left: 315px;
+  top: 519px;
+  width: 167px;
+  height: 62px;
+  color: #217bf4;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border-radius: 8px;
+  background: #c1d7f4;
+  box-shadow: 0px 7px 22px -6px rgba(78, 143, 228, 0.34);
+  transition: all 0.3s ease 0s; }
+
+.social {
+  position: absolute;
+  width: 585.52px;
+  height: 501.47px;
+  left: 719px;
+  top: 162px; }
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 450px; }
+
+/* Set gray background color and 100% height */
+.aboutus {
+  position: absolute;
+  width: 1440px;
+  height: 576px;
+  left: 0px;
+  top: 834px; }
+
+.p2 {
+  /* Whats Netboks? */
+  position: absolute;
+  width: 142px;
+  height: 18px;
+  left: 135px;
+  top: 96.53px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+  color: #217BF4; }
+
+.heading2 {
+  position: absolute;
+  width: 406px;
+  height: 96px;
+  left: 135px;
+  top: 124.53px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* or 133% */
+  color: #0A093D; }
+
+.p3 {
+  position: absolute;
+  width: 406px;
+  height: 84px;
+  left: 135px;
+  top: 236.53px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  color: #656464; }
+
+ul {
+  list-style: none; }
+
+ul li::before {
+  content: "\2022";
+  color: #217BF4;
+  font-weight: 800;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; }
+
+.bulletpoint_a {
+  font-family: 'Inter';
+  color: #171648;
+  position: absolute;
+  height: 18px;
+  left: 135px;
+  top: 310.53px; }
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px; }
+
+.pic3 {
+  position: absolute;
+  width: 281px;
+  height: 422px;
+  left: 733px;
+  top: 64px;
+  color: #2B2B397A;
+  background: linear-gradient(0deg, rgba(43, 43, 57, 0.48), rgba(43, 43, 57, 0.48)), url(.jpg); }
+
+.pic2 {
+  position: absolute;
+  width: 267px;
+  height: 252px;
+  left: 1039px;
+  top: 28px;
+  background: url(.jpg); }
+
+.pic1 {
+  position: absolute;
+  width: 290px;
+  height: 255px;
+  left: 1020px;
+  top: 295px;
+  background: url(.jpg); }
+
+.cardcont {
+  position: absolute;
+  width: 1440px;
+  height: 576px;
+  left: 135px;
+  top: 1524px; }
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .row.content {
+    height: auto; } }
