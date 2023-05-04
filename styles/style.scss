@@ -286,11 +286,84 @@
 
     .cardcont{
         position: absolute;
-        width: 1440px;
-        height: 576px;
+        box-sizing: border-box;
+        width: 336px;
+        height: 340px;
         left: 135px;
         top: 1524px;
+        bottom:1173;
+        background: #FFFFFF;
+        box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+        border-radius: 14px;
+
+        .rating{
+
+                position: absolute;
+                width: 200px;
+                height: 20px;
+                left: 82px;
+                top: 46px;
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 20px;
+                color: #0A093D;
+        }
+
+        .cardimg1{
+            position: absolute;
+            width: 70px;
+            height: 44px;
+            left: 44px;
+            top: 102px;
+            right: 232px;
+            bottom: 214px;
+    
+        }
+
+        .cardtitle{
+            position: absolute;
+            width: 126px;
+            height: 18px;
+            left: 120px;
+            top: 105px;
+            right:90px;
+            bottom: 217px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 18px;
+            /* identical to box height, or 112% */
+
+            letter-spacing: -0.02em;
+
+            color: #217BF4;
+        }
+
+        .card-body{
+            position: absolute;
+            width: 274px;
+            height: 78px;
+            left: 44px;
+            top: 166px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+
+            color: #8C8C8C;
+        }
+
     }
+
 
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
