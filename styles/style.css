@@ -2,9 +2,17 @@
 body {
   font-family: 'Inter'; }
 
+.headingfonts {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #0A093D; }
+
 .top-container {
   background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
-  padding-left: 0px;
+  padding-left: 200px;
   position: absolute;
   width: 100%;
   height: 846px;
@@ -46,6 +54,16 @@ body {
   background: #217BF4;
   box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
   transition: all 0.3s ease 0s; }
+
+#discover {
+  position: absolute;
+  width: 162px;
+  height: 62px;
+  left: 16px;
+  top: 250px;
+  background: #217BF4;
+  box-shadow: 0px 10px 22px -6px rgba(33, 123, 244, 0.26);
+  border-radius: 14px; }
 
 #network-btn {
   position: absolute;
@@ -144,6 +162,7 @@ body {
   position: absolute;
   width: 1440px;
   height: 576px;
+  padding-left: 200px;
   left: 0px;
   top: 834px; }
 
@@ -167,14 +186,14 @@ body {
   width: 406px;
   height: 96px;
   left: 135px;
-  top: 124.53px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 48px;
-  /* or 133% */
-  color: #0A093D; }
+  top: 124.53px; }
+
+.heading3 {
+  position: absolute;
+  width: 406px;
+  height: 96px;
+  left: 924px;
+  top: 124.53px; }
 
 .p3 {
   position: absolute;
@@ -188,6 +207,19 @@ body {
   font-size: 16px;
   line-height: 28px;
   /* or 175% */
+  color: #656464; }
+
+.p4 {
+  position: absolute;
+  width: 406px;
+  height: 84px;
+  left: 16px;
+  top: 140.53px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
   color: #656464; }
 
 ul {
@@ -219,7 +251,7 @@ footer {
   position: absolute;
   width: 281px;
   height: 422px;
-  left: 733px;
+  left: 933px;
   top: 64px;
   color: #2B2B397A;
   background: linear-gradient(0deg, rgba(43, 43, 57, 0.48), rgba(43, 43, 57, 0.48)), url(.jpg); }
@@ -228,7 +260,7 @@ footer {
   position: absolute;
   width: 267px;
   height: 252px;
-  left: 1039px;
+  left: 1239px;
   top: 28px;
   background: url(.jpg); }
 
@@ -236,7 +268,7 @@ footer {
   position: absolute;
   width: 290px;
   height: 255px;
-  left: 1020px;
+  left: 1220px;
   top: 295px;
   background: url(.jpg); }
 
@@ -330,6 +362,22 @@ footer {
     line-height: 18px;
     /* identical to box height, or 112% */
     letter-spacing: -0.02em;
+    color: #217BF4; }
+
+.achievement {
+  position: absolute;
+  left: 924px;
+  top: 1533px;
+  width: 381px;
+  font-family: 'Inter'; }
+  .achievement .hyprlink {
+    width: 149px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
     color: #217BF4; }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
