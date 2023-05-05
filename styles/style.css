@@ -222,6 +222,20 @@ body {
   line-height: 28px;
   color: #656464; }
 
+.p5 {
+  position: absolute;
+  width: 406px;
+  height: 84px;
+  left: 16px;
+  top: 80.53px;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #656464; }
+
 ul {
   list-style: none; }
 
@@ -380,6 +394,29 @@ footer {
     line-height: 18px;
     /* identical to box height, or 100% */
     color: #217BF4; }
+
+.memcontainer {
+  position: absolute;
+  left: 735px;
+  top: 2043px;
+  width: 381px;
+  font-family: 'Inter'; }
+  .memcontainer .hyprlink {
+    position: absolute;
+    width: 126px;
+    height: 18px;
+    left: 155px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #217BF4; }
+  .memcontainer .heading {
+    padding-left: 40px;
+    width: 600px; }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
