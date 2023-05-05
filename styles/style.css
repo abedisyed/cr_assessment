@@ -275,7 +275,8 @@ footer {
 .cardborder {
   background: #FFFFFF;
   box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
-  border-radius: 14px; }
+  border-radius: 14px;
+  padding-left: 200px; }
   .cardborder .rating {
     position: absolute;
     width: 200px;
@@ -313,7 +314,7 @@ footer {
   box-sizing: border-box;
   width: 336px;
   height: 340px;
-  left: 535px;
+  left: 735px;
   top: 1524px;
   bottom: 1173px;
   background: #FFFFFF;
@@ -341,7 +342,7 @@ footer {
   box-sizing: border-box;
   width: 336px;
   height: 340px;
-  left: 135px;
+  left: 335px;
   top: 1524px;
   bottom: 1173px;
   background: #FFFFFF;
@@ -366,7 +367,7 @@ footer {
 
 .achievement {
   position: absolute;
-  left: 924px;
+  left: 1124px;
   top: 1533px;
   width: 381px;
   font-family: 'Inter'; }
