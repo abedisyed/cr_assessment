@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
         <link rel="stylesheet" href="/styles/style.css"/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="main.js"></script>
         <title>Notebok - Social Networking kanding page</title>
     </head>
@@ -236,18 +237,36 @@
                 <div>
                     <p class="p5">when an unknown printer took a galley of type and meeting fari scrambled it.</p>
                 </div>
-                <div>
-                    <a>
-                        <button type="button" class="btn btn-primary" id="discover">Discover me &nbsp; 
-                            <span>
-                                  <svg style="text-align: center; padding-top:2.3%;" xmlns="http://www.w3.org/2000/svg" width="16" height="15" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                                  </svg>
-                            </span>
+<!-- 
+                <div class="btn-group btn-toggle btntoggle1" > 
+                    <button class="btn btn-default" data-toggle="collapse" data-target="#collapsible">Newest</button>
+                    <button class="btn btn-default" data-toggle="collapse" data-target="#collapsible">Popular</button>
+                    <button onclick="log()" class="btn btn-primary active" data-toggle="collapse" data-target="#collapsible">Active</button>
+                </div> -->
 
-                        </button>
-                    </a>
+                <div class="btntoggle1">
+                    <div class="switch-field">
+                        <input type="radio" id="radio-three" name="switch-two" value="newest" />
+                        <label style="font-family: inter; font-style:normal;" for="radio-three">Newest</label>
+                        <input type="radio" id="radio-four" name="switch-two" value="popular" />
+                        <label for="radio-four">Popular</label>
+                        <input type="radio" id="radio-five" name="switch-two" value="active" checked/>
+                        <label for="radio-five">Active</label>
+                    </div>
                 </div>
+
+                <div>
+                    <div>
+                        <img class="actsize" src="/images/person1.png" alt="Active Person 1">
+                    </div>
+                    <div>
+                        <img class="actsize" src="/images/person2.png" alt="Active Person 2">
+                    </div>
+                    <div>
+                        <img class="actsize" src="/images/person3.png" alt="Active Person 3">
+                    </div>
+                </div>
+
             </div>
         </div>
 
