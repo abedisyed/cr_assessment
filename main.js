@@ -1,9 +1,12 @@
-function log() {
-    alert("clciked")
-  };
-
-  var newestlbl = document.getElementById(newestlbl)
-
-  if (event.target.value == newest){
-    newestlbl.style.borderRadius = "15px"
-  }
+var count = 1;
+function setColor(btn, color) {
+    var property = document.getElementById(btn);
+    if (count == 0) {
+        property.style.backgroundColor = "#FFFFFF"
+        count = 1;        
+    }
+    else {
+        property.style.backgroundColor = "#217bf4"
+        count = 0;
+    }
+}
